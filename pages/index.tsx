@@ -21,8 +21,8 @@ export default function Index({ initialCount }){
           decrement
         </button>
       </div>
-      <Link href = "/translate">
-        日本語翻訳
+      <Link href = "/decomposition">
+        入力場所
       </Link>
     </>
   )
