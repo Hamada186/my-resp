@@ -1,9 +1,9 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { useContext } from 'react';
-import TextMessage from '../decomposition';
+import { TextMessage } from '../decomposition';
 
 export default function SendText(req: NextApiRequest, res: NextApiResponse) {
-  // const message = useContext(TextMessage);
+  const message = useContext(TextMessage);
   res.json(
     {
       name: "sendText",

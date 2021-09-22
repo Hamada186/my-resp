@@ -28,6 +28,8 @@ const DecompPage = () => {
 
   // BackendAPI との通信
   // まずは課題と同じことをやる。
+  // request 作ってbody に内容入れればいけるのでは?
+  // 一度適当にファイルを作ってコンポーネント間通信ができるのかを見たほうがよさそう。
   const getProps = async () => {
     const response = await fetch("http://localhost:3001/api/v2/articles", { method: "GET" });
     const json = await response.json();
