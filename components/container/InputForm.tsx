@@ -4,7 +4,7 @@ import TextareaComp from './TextareaComp';
 
 //不要ファイル
 //inputとoutputは分けたほうが見栄えがいいと思います。
-const InputForm = () => {
+const InputForm :FC = () => {
   const [input, setInput] = useState("");
   const [message, setMessage] = useState("");
 
